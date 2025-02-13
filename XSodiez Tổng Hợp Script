@@ -1,0 +1,299 @@
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
+
+       local Window = MakeWindow({
+         Hub = {
+         Title = "XSodiez",
+         Animation = "XSodiez"
+         },
+        Key = {
+        KeySystem = false,
+        Title = "Key System",
+        Description = "",
+        KeyLink = "",
+        Keys = {"1234"},
+        Notifi = {
+        Notifications = true,
+        CorrectKey = "Running the Script...",
+       Incorrectkey = "The key is incorrect",
+       CopyKeyLink = "Copied to Clipboard"
+      }
+    }
+  })
+
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=5013155701",
+       Size = {30, 30},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(0, 0, 0)
+      })
+      
+------ Tab
+     local Tab1o = MakeTab({Name = "Script"})
+     local Tab2o = MakeTab({Name = "Mod game"})
+     local Tab3o = MakeTab({Name = "Script need key"})
+     
+     
+------- BUTTON
+    
+    AddButton(Tab1o, {
+     Name = "Teddy hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/skibiditoiletgojo/Haidepzai/refs/heads/main/TeddyHubv2"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "Blue X V2",
+    Callback = function()
+_G.Team = "Pirates"
+_G.FixLag = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/Main.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Redz Hub",
+    Callback = function()
+	  local Settings = {
+  JoinTeam = "Pirates"; -- Pirates/Marines
+  Translator = true; -- true/false
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))(Settings)
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Rubu V3",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/RubuRoblox/refs/heads/main/RubuBF"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Cuttay Hub Premium",
+    Callback = function()
+	  loadstring(game:HttpGet('https://raw.githubusercontent.com/mizuharasup/cutaypremium/refs/heads/main/premium.lua'))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Zis hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/Zis/refs/heads/main/ZisRb3"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Mukuro",
+    Callback = function()
+	  loadstring(game:HttpGet("https://auth.quartyz.com/scripts/Loader.lua"))()
+	end
+	})
+    AddButton(Tab1o, {
+     Name = "BapRed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Kncrypt",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/3345-c-a-t-s-u-s/Kncrypt/refs/heads/main/sources/BloxFruit.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "W_azure",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+    AddButton(Tab1o, {
+     Name = "Quantum onyx hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://quantumonyx.xyz/MainHub/BetaTesting.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Volcano hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/wpisstestfprg/Volcano/refs/heads/main/VolcanoLocal.lua", true))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Trẩu hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/TrauHub/refs/heads/main/TrauTX"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Astral hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Gangteng hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/a5c3af437cd698d64379cf75cacb9281.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Xero hub",
+    Callback = function()
+	  getgenv().Team = "Marines"
+getgenv().Hide_Menu = false
+getgenv().Auto_Execute = false
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Xero2409/XeroHub/refs/heads/main/main.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Flow hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Yumiara/Overflow/refs/heads/main/Main.lua"))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Speed hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+   })
+    AddButton(Tab1o, {
+     Name = "Raito hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Overgustx2/Main/refs/heads/main/BloxFruits_25.html"))()
+  end
+    })
+     AddButton(Tab2o, {
+     Name = "Fix Lag",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+    })
+     AddButton(Tab3o, {
+     Name = "Banana hub",
+    Callback = function()
+	  repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
+getgenv().Key = "PASTE_KEY_HERE"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })
+     AddButton(Tab3o, {
+     Name = "Thunder Z",
+    Callback = function()
+	  _G.Webhook = ""
+_G.MetodeTeleport = "Tween" --"Tween" or "Instant"
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/BloxFruit/FindFruit.lua')))()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Strix hub",
+    Callback = function()
+	  loadstring(game:HttpGet"https://scriptroblox.onrender.com/strix")()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Auto bounty Xero hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/pisovn/OisiRoblox1/refs/heads/main/AutoBountyXero"))()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Hoho hub",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+   AddButton(Tab3o, {
+     Name = "Auto bounty W_azure",
+    Callback = function()
+	  script_key = "NHẬP KEY VÀO ĐÂY"
+getgenv().Team = "Pirates"
+getgenv().Setting = { -- Select Weapon, Self Explain
+        ["Melee"] = {
+            ["Enable"] = true,
+            ["Delay"] = 3,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            [ "X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+    
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
+        },
+        ["Blox Fruit"] = {
+            ["Enable"] = false,
+            ["Delay"] = 4,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+    
+                ["C"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+                ["V"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+                ["F"] = {
+                    ["Enable"] = false,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
+        },
+        ["Sword"] = {
+            ["Enable"] = false,
+            ["Delay"] = 2,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 1,
+                    ["TimeToNextSkill"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
+        },
+        ["Gun"] = {
+            ["Enable"] = true,
+            ["Delay"] = 2,
+            ["Skills"] = {
+                ["Z"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+                ["X"] = {
+                    ["Enable"] = true,
+                    ["HoldTime"] = 0,
+                    ["TimeToNextSkill"] = 0,
+                },
+            },
+        }
+    }
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7c85f07250e76490265b724cca4e1d9c.lua"))()
+  end
+  })
